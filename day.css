@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(150deg,rgb(255, 101, 101) , rgb(80, 71, 255));
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.day1{
+    width: 500px;
+    height: 700px;
+    border: 1px #fff;
+    border-radius: 30px;
+    background: url(day.png);
+    box-shadow: 0 0 100px rgb(0, 0, 0) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.day2{
+    width: 500px;
+    height: 700px;
+    border: 1px #fff;
+    border-radius: 30px;
+    background: url(brith.png);
+    z-index: 1;
+    animation: open 20s linear;
+}
+@keyframes open {
+    100%{
+    width: 500px;
+    height: 700px;
+    }
+    97.5%{
+    width: 500px;
+    height: 700px;
+    }
+   91%{
+    width: 500px;
+    height: 700px;
+    }
+   84.5%{
+    width: 500px;
+    height: 650px;
+    }
+    78%{
+    width: 500px;
+    height: 600px;
+    }
+   71.5%{
+    width:500px;
+    height:550px;
+    }
+    65%{
+    width: 450px;
+    height: 500px;
+    }
+   58.5%{
+    width: 400px;
+    height: 450px;
+    }
+   52%{
+    width: 350px;
+    height: 400px;
+    }
+   45.5%{
+    width: 300px;
+    height: 350px;
+    }
+   39%{
+    width: 250px;
+    height: 300px;
+    }
+   32.5%{
+    width: 200px;
+    height: 250px;
+    }
+   26%{
+    width: 150px;
+    height: 200px;
+    }
+   19.5%{
+    width: 100px;
+    height: 150px;
+    }
+   13%{
+    width: 50px;
+    height: 100px;
+    }
+   6.5%{
+    width: 0px;
+    height: 50px;
+    }
+   0%{
+    width:0px;
+    height:0px;
+    }
+}
